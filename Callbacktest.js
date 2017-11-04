@@ -5,7 +5,8 @@ var eventEmitter = new events.EventEmitter();
 
 // 创建事件处理程序
 var connectHandler = function connected() {
-   console.log('连接成功。');
+	 console.log('连接成功。');
+
 
    // 触发 data_received 事件
    eventEmitter.emit('data_received');

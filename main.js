@@ -10,6 +10,10 @@ fs.readFile('File.txt/input.txt',function(err,data){
 	console.log(data.toString());
 })
 
+function set(){
+	var i = 30;
+}
+
 // console.log(data.toString());
 
 console.log('程序执行结束');
